@@ -1,0 +1,1 @@
+# Textovy_analyzator
