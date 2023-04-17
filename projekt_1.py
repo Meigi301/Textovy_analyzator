@@ -55,14 +55,12 @@ soucet_cisel = 0
 pocet_vyskytu_delek_slov = {}
 
 if zadane_jmeno in registrovani_uzivatele and zadane_heslo in registrovani_uzivatele.get(zadane_jmeno):
-    pass
+    print(oddelovac)
+    print(f"Welcome to the app, {zadane_jmeno} We have 3 texts to be analyzed")
+    print(oddelovac)
 else:
     print("unregistered user, terminating the program...")
     quit()
-
-print(oddelovac)
-print(f"Welcome to the app, {zadane_jmeno} We have 3 texts to be analyzed")
-print(oddelovac)
 
 zadane_cislo = input("Enter a number btw. 1 and 3 to select: ")
 if zadane_cislo.isnumeric():
